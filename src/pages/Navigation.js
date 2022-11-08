@@ -10,6 +10,7 @@ const Navigation = () => {
             <Link className="nav-link" to="/wallet">Wallet</Link>
           </div>
         </div>
+        <Outlet />
       </div>
     );
   };
