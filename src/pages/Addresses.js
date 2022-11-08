@@ -11,7 +11,7 @@ const addrData = [
 const Addresses = () => {
   return (
     <div>
-      <h1>Blockchain Node Addresses</h1>
+      <h1>Blockchain Addresses</h1>
       <AddressComponent addrData={addrData} className="list-group" />
     </div>
   );
