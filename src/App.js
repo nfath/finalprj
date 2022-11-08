@@ -1,19 +1,16 @@
 import logo from './logo.svg';
 import './App.css';
 import {Routes, Route} from "react-router-dom";
-
+import Navigation from "./pages/Navigation";
+import NoPage from "./pages/NoPage";
 
 function App() {
   return (
     <div className="App">
       <Routes>
-        <Route path="/" element={<NavigationBar />}>
-            <Route path="" element={} />
-            <Route path="" element={} />
-            <Route path="" element={} />
+        <Route path="/" element={<Navigation />}>
             <Route path="*" element={<NoPage />} />
-          </Route>
-
+        </Route>
       </Routes>
     </div>
   );
