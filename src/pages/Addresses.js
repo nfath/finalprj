@@ -7,7 +7,7 @@ const addrData = [
   { id: "3", address: "Ox90F79bf6EB2c4f870365E785982E1f101E93b906" },
   { id: "4", address: "Ox15d34AAf54267DB7D7C367839AAF71A00a2C6A65" }
 ];
-
+ 
 const Addresses = () => {
   return (
     <div>
